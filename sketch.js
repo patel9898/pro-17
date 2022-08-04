@@ -74,7 +74,7 @@ function draw() {
       // treasureCollection=+ 150;
       // treasureCollection= 150;
       // treasureCollection= treasureCollection - 150;
-      // treasureCollection= treasureCollection + 150;
+       treasureCollection= treasureCollection + 150;
       
     }else{
       if(swordGroup.isTouching(boy)) {
@@ -84,22 +84,22 @@ function draw() {
         // cashG.destroyEach;
         // diamondsG.destroyEach;
         // jewelryG.destroyEach;
-        // swordGroup.destroyEach;
+         swordGroup.destroyEach;
 
         // cashG.destroy();
         // diamondsG.destroy();
         // jewelryG.destroy();
-        // swordGroup.destroy();
+         swordGroup.destroy();
         
         // cashG.destroyEach();
         // diamondsG.destroyEach();
         // jewelryG.destroyEach();
-        // swordGroup.destroyEach();
+         swordGroup.destroyEach();
         
         // cashGdestroyEach();
         // diamondsGdestroyEach();
         // jewelryGdestroyEach();
-        // swordGroupdestroyEach();
+         swordGroupdestroyEach();
         
         cashG.setVelocityYEach(0);
         diamondsG.setVelocityYEach(0);
