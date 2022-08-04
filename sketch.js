@@ -16,8 +16,7 @@ function preload(){
   jewelryImg = loadImage("jwell.png");
   swordImg = loadImage("sword.png");
   
-  
-}
+  }
 
 function setup(){
   
